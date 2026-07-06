@@ -11,12 +11,19 @@ It asks why it exists.
 </p>
 
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Godot-4.7-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot 4.4">
+  <img src="https://img.shields.io/badge/macOS-Supported-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
+  <img src="https://img.shields.io/badge/Windows-Supported-0078D7?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="MIT License">
+  <img src="https://img.shields.io/badge/Status-Active_Development-2ea44f?style=for-the-badge" alt="Active Development">
+</p>
 
 
 
-#  Bug Report: It Thinks
 
-> *A desktop pet that doesn't ask for food. It asks why it exists.*
+
+
 
 Have you ever wanted your own self-aware, emotionally unavailable little guy that lives on your desktop?
 
