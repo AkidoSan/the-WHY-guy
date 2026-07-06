@@ -1,3 +1,19 @@
+
+<p align="center">
+  <img src="assets/whyguytransparent.png" width="140" alt="WhyGuy Logo">
+</p>
+
+<h1 align="center">Bug Report: It Thinks</h1>
+
+<p align="center">
+A desktop pet that doesn't ask for food.<br>
+It asks why it exists.
+</p>
+
+
+
+
+
 #  Bug Report: It Thinks
 
 > *A desktop pet that doesn't ask for food. It asks why it exists.*
