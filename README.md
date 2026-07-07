@@ -1,19 +1,28 @@
-<p align="center">
+<div align="center">
   <img src="assets/optimizedtransparentlogo.png" width="550" alt="WhyGuy Logo">
-</p>
-<h1 align="center">Bug Report: It Thinks</h1>
-<p align="center">
-A desktop pet that doesn't ask for food.<br>
-It asks why it exists.
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Godot-4.7-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot 4.4">
-  <img src="https://img.shields.io/badge/macOS-Supported-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
-  <img src="https://img.shields.io/badge/Windows-Supported-0078D7?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="MIT License">
-  <img src="https://img.shields.io/badge/Status-Active_Development-2ea44f?style=for-the-badge" alt="Active Development">
-</p>
+  <br>
+  <br>
 
+  <img src="https://img.shields.io/badge/Godot-4.7-478CBF?style=for-the-badge&logo=godotengine&logoColor=white">
+  <img src="https://img.shields.io/badge/macOS-Supported-000000?style=for-the-badge&logo=apple&logoColor=white">
+  <img src="https://img.shields.io/badge/Windows-Supported-0078D7?style=for-the-badge&logo=windows&logoColor=white">
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active_Development-2ea44f?style=for-the-badge">
+</div>
+
+  <br>
+  The Why Guy is a desktop companion that doesn't ask for food. He asks why he exists. Instead of constantly trying to get your attention, he quietly stays on your desktop and starts conversations about whatever is on his mind. The project was created to encourage empathy through simple, honest conversations. He isn't there to give advice or pretend to have all the answers. Sometimes he just asks a question, and that's enough to make you stop and think.<br>
+  
+  <br>
+
+# Table of Contents
+
+- [Introduction](#introduction)
+  - [Inspiration](#inspiration)
+  - [Motivation](#motivation)
+  - [The Story](#the-story)
+  - [Project Goals](#project-goals)
+  - [Conclusion](#conclusion)
 ## Table of Contents
 
 - [Introduction](#introduction)
