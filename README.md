@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/whyguytransparent.png" width="140" alt="WhyGuy Logo">
+  <img src="assets/optimizedtransparentlogo.png" width="550" alt="WhyGuy Logo">
 </p>
 <h1 align="center">Bug Report: It Thinks</h1>
 <p align="center">
