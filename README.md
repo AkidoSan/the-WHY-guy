@@ -102,6 +102,26 @@ WhyGuy isn't meant to be "a desktop pet." He's meant to become a companion that 
 
 # Features
 
+Today marks the first completed gameplay feature for **WhyGuy**.
+
+### Words of Affirmation: 9/7/27
+
+WhyGuy can now spot floating **Words of Affirmation** around him and wander over to eat them when the cursor leaves the glass canopy. Each affirmation is accompanied by its own message and satisfying sound effects, making the desktop feel a little more alive.
+
+There's also a **very small chance** that a rare **Golden Affirmation** will appear. If you're lucky enough to find one, you'll unlock a hidden achievement.
+
+> *Note: macOS screen recordings don't capture the in-game sound effects, but they're present in the actual application.*
+
+### Exhaust Animation
+
+Finished the new exhaust animation, adding more personality and polish to WhyGuy's movement. It's a small detail, but it helps him feel much more alive while wandering around your desktop.
+
+### Progress
+
+-  First interactive feature  ✅
+-  Exhaust animation finished ✅
+-  Next up: Expanding dialogue and building the memory system
+
 ## Core Features
 
 - Transparent, always-on-top desktop window
