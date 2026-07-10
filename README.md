@@ -15,14 +15,7 @@
   
   <br>
 
-# Table of Contents
 
-- [Introduction](#introduction)
-  - [Inspiration](#inspiration)
-  - [Motivation](#motivation)
-  - [The Story](#the-story)
-  - [Project Goals](#project-goals)
-  - [Conclusion](#conclusion)
 ## Table of Contents
 
 - [Introduction](#introduction)
