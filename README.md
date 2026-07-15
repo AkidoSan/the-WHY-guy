@@ -34,7 +34,7 @@
   - [Download](#download)
   - [Requirements](#requirements)
   - [Running WhyGuy](#running-whyguy)
-- [Help and Guide(#Help)
+- [Help and Guide(#mouse-controls)
   - [Mouse Controls](#mouse-controls)
   - [Keyboard Shortcuts](#keyboard-shortcuts)
 - [How It Works](#how-it-works)
@@ -155,114 +155,150 @@ Finished the new exhaust animation, adding more personality and polish to WhyGuy
 ---
 
 # Controls
+# Help & Getting Started
 
-Help & Getting Started
+Welcome to **WhyGuy**.
 
-Welcome to WhyGuy.
+Unlike a traditional game, **WhyGuy** is designed to quietly exist alongside your workflow. This guide covers everything you need to know before getting started.
 
-Unlike a traditional game, WhyGuy is designed to quietly exist alongside your workflow. This section covers everything you need to know before getting started.
+---
 
-Controls
-Action	Control
-Move WhyGuy	Left Click + Drag anywhere on the application window
-Increase Window Size	Ctrl + Mouse Wheel Up
-Decrease Window Size	Ctrl + Mouse Wheel Down
-Continue Dialogue	Enter or Left Click (when prompted)
-Navigate Menus	Left Click
-Exit WhyGuy	Exit from the Main Menu
+##  Controls
 
-Tip: You can freely resize WhyGuy at any time. The artwork and interface automatically scale to match your preferred window size.
+| Action | Control |
+|:-------|:--------|
+| **Move WhyGuy** | Left Click + Drag anywhere on the application window |
+| **Increase Window Size** | `Ctrl + Mouse Wheel Up` |
+| **Decrease Window Size** | `Ctrl + Mouse Wheel Down` |
+| **Continue Dialogue** | `Enter` or **Left Click** (when prompted) |
+| **Navigate Menus** | **Left Click** |
+| **Exit WhyGuy** | Select **Exit** from the Main Menu |
 
-Moving WhyGuy
+>  **Tip**
+>
+> You can resize WhyGuy at any time. The artwork and interface automatically scale to match your preferred window size.
+
+---
+
+## Moving WhyGuy
 
 WhyGuy can be freely repositioned anywhere on your desktop.
 
-Click and drag anywhere on the application window.
-Place him wherever he feels most comfortable.
-He is designed to stay out of the way while remaining easy to interact with.
+- Click and drag anywhere on the application window.
+- Place him wherever he feels most comfortable.
+- Keep him nearby without getting in the way of your workflow.
 
-Tip: Many people keep WhyGuy tucked into a corner of their screen while studying, working, or listening to music.
+>  **Recommended**
+>
+> Many people keep WhyGuy tucked into a corner of their screen while studying, working, or listening to music.
 
-Resizing the Window
+---
 
-WhyGuy supports window resizing to better fit your workspace.
+##  Resizing the Window
+
+WhyGuy supports multiple window sizes to better fit your workspace.
 
 You can:
 
-Resize the window by dragging any edge or corner.
-Quickly resize using Ctrl + Mouse Wheel.
-Make WhyGuy small enough to quietly accompany your workflow or enlarge him to better appreciate the artwork and animations.
+- Resize the window by dragging any edge or corner.
+- Use **Ctrl + Mouse Wheel** for quick resizing.
+- Make WhyGuy small enough to quietly accompany your workflow.
+- Enlarge him to better enjoy the artwork and animations.
 
 The interface has been designed to scale cleanly across different window sizes.
 
-Menu Guide
+---
 
-When launching WhyGuy you'll be greeted with the main menu.
+## Menu Guide
 
-Start
+### Start
 
 Begins WhyGuy's introduction and starts your journey together.
 
-Documentation
+###  Documentation
 
 Opens the project's GitHub repository where you can:
 
-Read development logs
-Follow project progress
-Report bugs
-Suggest new features
-Stay up to date with future releases
-Exit
+- Read development logs
+- Follow project progress
+- Report bugs
+- Suggest new features
+- Stay up to date with future releases
+
+###  Exit
 
 Closes WhyGuy.
 
-Troubleshooting
-No audio?
-Check your system volume.
-Make sure WhyGuy isn't muted.
-Some macOS screen recording software does not capture in-game audio even though it plays correctly.
-WhyGuy won't move
+---
 
-Ensure you're clicking and dragging inside the application window rather than another window underneath it.
+##  Troubleshooting
 
-Window appears behind another application
+###  No audio?
+
+- Check your system volume.
+- Make sure WhyGuy isn't muted.
+- Some macOS screen recording software does **not** capture in-game audio even though it plays correctly.
+
+---
+
+###  WhyGuy won't move
+
+Make sure you're dragging inside the application window rather than another window underneath it.
+
+---
+
+###  Window appears behind another application
 
 WhyGuy is designed to remain on top of most windows. If another application unexpectedly takes focus, simply click WhyGuy to bring him back.
 
-Performance feels slow
+---
+
+###  Performance feels slow
 
 Closing unnecessary background applications may improve performance on older hardware.
 
-Frequently Asked Questions
-Is WhyGuy finished?
+---
+
+#  Frequently Asked Questions
+
+### Is WhyGuy finished?
 
 No.
 
 The current release is an early public build focused on establishing the project's foundation. Dialogue, personality, artwork, interactions, and desktop integration will continue to grow with future updates.
 
-Will there be Windows support?
+---
 
-Yes.
+### Will there be Windows support?
+
+**Yes.**
 
 Windows support is planned once the macOS version reaches a stable feature set.
 
-Does WhyGuy remember me?
+---
 
-Eventually, yes.
+### Does WhyGuy remember me?
+
+**Eventually, yes.**
 
 The long-term vision is for WhyGuy to gradually remember conversations, names, important dates, inside jokes, habits, and many of the little interactions that make every copy feel unique.
 
-Is my data private?
+---
 
-Yes.
+### Is my data private?
+
+**Yes.**
 
 WhyGuy is designed with privacy in mind. Planned memory features exist to improve your experience inside the application and are not intended to monitor unrelated activity on your computer.
 
-Found a bug?
+---
+
+###  Found a bug?
 
 Please open an issue on the GitHub repository.
 
 Feedback, bug reports, feature requests, and suggestions are always appreciated—they directly help shape the future of WhyGuy.
+
 
 ---
 
