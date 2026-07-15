@@ -213,7 +213,7 @@ The interface has been designed to scale cleanly across different window sizes.
 
 ### Start
 
-Begins WhyGuy's introduction and starts your journey together.
+Begins WhyGuy's introduction and starts your journey together, using headphones may feel more immersive so keep that in mind plus i encourage you to find easter eggs in the game!
 
 ###  Documentation
 
@@ -265,7 +265,7 @@ Closing unnecessary background applications may improve performance on older har
 
 No.
 
-The current release is an early public build focused on establishing the project's foundation. Dialogue, personality, artwork, interactions, and desktop integration will continue to grow with future updates.
+The current release is an early public build focused on establishing the project's foundation. Dialogue, personality, artwork, interactions, and desktop integration will continue to grow with future updates.As of me updating this readME i have uploaded version 0.1
 
 ---
 
