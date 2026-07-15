@@ -368,3 +368,9 @@ Original hand-drawn artwork and character design (previously used placeholder ar
 ## Open Source Libraries
 
 ## Special Thanks
+MellowMix (YouTube) — Godot tutorials and guidance, particularly for implementing the transparent desktop window and related functionality that helped lay the foundation for WhyGuy.
+Link:https://www.youtube.com/@mellowminx
+16BitDev (YouTube) — beginner-friendly Godot tutorials covering cutscene creation, dialogue flow, and AnimationPlayer fundamentals, which were invaluable while building WhyGuy's opening sequence.
+Link:https://www.youtube.com/@16bitdev
+DevWorm (YouTube) — For helping me finally understand Godot UI, especially VBoxContainers, layout management, and UI organization. Those tutorials saved me from my greatest mortal enemy.
+Link:https://www.youtube.com/@dev-worm 
