@@ -385,9 +385,6 @@ Original hand-drawn artwork and character design (previously used placeholder ar
 - Visual references and inspiration from **Pinterest**
 - 16/7/26- All placeholders removed!
 
-## Development
-
-## Open Source Libraries
 
 ## Special Thanks
 - MellowMix (YouTube) — Godot tutorials and guidance, particularly for implementing the transparent desktop window and related functionality that helped lay the foundation for WhyGuy.
