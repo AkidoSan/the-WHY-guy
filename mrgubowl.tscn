@@ -1,0 +1,82 @@
+[gd_scene format=3 uid="uid://bmlm0jn0jesv4"]
+
+[ext_resource type="PackedScene" uid="uid://bdgsfuxpi5wxd" path="res://game/megumi.tscn" id="2_505gx"]
+[ext_resource type="Texture2D" uid="uid://cojkcwjhnc3uv" path="res://game/assets/sprite variant food of thought/exhaust 2 transpt.png" id="2_nd7od"]
+[ext_resource type="Script" uid="uid://cliymd856s1br" path="res://game/foodcontainer.gd" id="3_4oy5p"]
+[ext_resource type="Texture2D" uid="uid://c5fyc3f0rbeom" path="res://game/assets/sprite variant food of thought/middle exhaust 2.png" id="3_nd7od"]
+[ext_resource type="Texture2D" uid="uid://c1va1bp5087ei" path="res://game/assets/sprite variant food of thought/exhaust 3 transpt.png" id="3_noxup"]
+[ext_resource type="Texture2D" uid="uid://bmcfqn75jmtft" path="res://game/assets/button masks/g1.png" id="3_xcbbf"]
+[ext_resource type="Script" uid="uid://dimokeev2hqry" path="res://game/waterbutton.gd" id="4_4oy5p"]
+[ext_resource type="Texture2D" uid="uid://pppuxmmmsr3r" path="res://game/assets/sprite variant food of thought/exhaust 4 transpt.png" id="4_jxcwj"]
+[ext_resource type="Texture2D" uid="uid://djd806bc5j7pg" path="res://game/assets/sprite variant food of thought/exhaust 5 transpt.png" id="5_8kvpg"]
+[ext_resource type="Script" uid="uid://cat25f7t6yfcg" path="res://game/exhaust.gd" id="6_nd7od"]
+[ext_resource type="Texture2D" uid="uid://dlerj7v5dd8ex" path="res://game/assets/sprite variant food of thought/ufo without exhasut.png" id="6_w0epv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_58f3i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_jxcwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nd7od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_noxup")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jxcwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8kvpg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jxcwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nd7od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_nd7od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jxcwj")
+}],
+"loop": 1,
+"name": &"hover",
+"speed": 5.0
+}]
+
+[node name="mrgubowl" type="Node2D" unique_id=1042037722]
+position = Vector2(915, 519)
+
+[node name="exhaust" type="AnimatedSprite2D" parent="." unique_id=248693994]
+position = Vector2(2.0000076, -247)
+scale = Vector2(0.7772445, 1.033732)
+sprite_frames = SubResource("SpriteFrames_58f3i")
+animation = &"hover"
+frame = 3
+frame_progress = 0.9314868
+script = ExtResource("6_nd7od")
+
+[node name="fishbowl back" type="Sprite2D" parent="." unique_id=1974606203]
+position = Vector2(48.999985, -175)
+scale = Vector2(0.91256, 0.9245368)
+texture = ExtResource("6_w0epv")
+
+[node name="megumi" parent="." unique_id=1631758030 instance=ExtResource("2_505gx")]
+position = Vector2(27, -314)
+
+[node name="foodcontainer" type="Node2D" parent="." unique_id=798033967]
+position = Vector2(-10, -13)
+script = ExtResource("3_4oy5p")
+
+[node name="waterbutton" type="TextureButton" parent="." unique_id=1928721490]
+self_modulate = Color(1, 1, 1, 0.18431373)
+offset_left = -238.0
+offset_top = -573.0
+offset_right = 497.0
+offset_bottom = 376.0
+texture_normal = ExtResource("3_xcbbf")
+script = ExtResource("4_4oy5p")
+metadata/_edit_use_anchors_ = true

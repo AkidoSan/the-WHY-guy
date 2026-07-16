@@ -1,0 +1,1021 @@
+[gd_scene format=3 uid="uid://cknybtpn3kq4r"]
+
+[ext_resource type="Script" uid="uid://c4gutpq6thsmv" path="res://game/cutscene.gd" id="1_11rn7"]
+[ext_resource type="AudioStream" uid="uid://b5w75gv27pp1i" path="res://game/assets/audio/audio cutscene/cridge audio.mp3" id="2_npmbk"]
+[ext_resource type="Texture2D" uid="uid://11atq4xodps0" path="res://game/assets/megumi/MAINUI/QUASI SYSTEM.png" id="3_lvpcv"]
+[ext_resource type="Texture2D" uid="uid://dumgfqf1st1ws" path="res://game/assets/megumi/MAINUI/earthapproach.png" id="4_bn3ge"]
+[ext_resource type="AudioStream" uid="uid://tvbs7fu0jcte" path="res://game/assets/audio/audio cutscene/vesselapproaching.mp3" id="5_ex658"]
+[ext_resource type="AudioStream" uid="uid://blphhsxpq6m8m" path="res://game/assets/audio/audio cutscene/messagefromdtarfleet.mp3" id="6_ulve2"]
+[ext_resource type="AudioStream" uid="uid://dgjhmrjko05hg" path="res://game/assets/audio/audio cutscene/force field off.mp3" id="7_5qh8t"]
+[ext_resource type="AudioStream" uid="uid://cm2eyv5lir1ui" path="res://game/assets/audio/audio cutscene/tmp_warp_clean.mp3" id="8_a5i0c"]
+[ext_resource type="Texture2D" uid="uid://ukkillfodol5" path="res://game/spritesheets and other assets/Sprite sheets/Dialouge UI/Emotes/new cutscene/cutscene. bg-Photoroom.png" id="9_gdqwm"]
+[ext_resource type="Texture2D" uid="uid://cr527ap0b8mqt" path="res://game/assets/megumi/MAINUI/en2 replacement.png" id="10_2hsgb"]
+[ext_resource type="Texture2D" uid="uid://cjht554snw7e1" path="res://game/assets/megumi/MAINUI/en1mainnew.png" id="11_ydjsy"]
+[ext_resource type="Texture2D" uid="uid://864uakou25ig" path="res://game/assets/megumi/MAINUI/en3new.png" id="12_fkjof"]
+[ext_resource type="Texture2D" uid="uid://c1wllu3wkpfle" path="res://game/assets/megumi/MAINUI/en5.png" id="13_rnq2y"]
+[ext_resource type="Texture2D" uid="uid://bglfur3pxlmx8" path="res://game/assets/megumi/MAINUI/astral map animation frames/astral final.png" id="14_bssyp"]
+[ext_resource type="Texture2D" uid="uid://4kvssmlok8g" path="res://game/spritesheets and other assets/Sprite sheets/Dialouge UI/Emotes/new cutscene/pfpwhyguy-Photoroom.png" id="15_dmjuj"]
+
+[sub_resource type="Animation" id="Animation_4xpgs"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("char/Arbiterwhguy:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(141.99998, 828.00006)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ui/Panel/VBoxContainer/Label:theme_override_colors/font_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.78235406, 0.21275721, 0.0022523496, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ui/Panel/VBoxContainer/Label:text")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [" [UESF CENTURY F91] ONBOARD AI"]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ui/Panel/VBoxContainer/RichTextLabel:text")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["Welcome back Arbiter.
+Long-range scans confirm successful departure from the quasi Sector.
+Mission status?"]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("ui/Panel/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("ui/Panel:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("ui/Label:text")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["                  QUASI-4 ERID"]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Sprite2D/Sprite2D/En2:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [false]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Sprite2D/Sprite2D/En3(4):visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Sprite2D/Sprite2D/En4:visible")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Sprite2D/Sprite2D/En5:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("AnimationPlayer/fleetapproaching:playing")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("AnimationPlayer/starfleet message:playing")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("AnimationPlayer/AudioStreamPlayer2D3:playing")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("AnimationPlayer/AudioStreamPlayer2D:playing")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Sprite2D/Sprite2D:modulate")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.12225217, 0.12225226, 0.12225223, 1)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Sprite2D/Sprite2D/QuasiSystem:visible")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Sprite2D/Sprite2D/QuasiSystem:texture")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("3_lvpcv")]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath(".:modulate")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("ui/Panel/VBoxContainer:visible")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("char/astral1:position")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1399, 873)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("char/astral1:texture")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("14_bssyp")]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("char/Arbiterwhguy:texture")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("15_dmjuj")]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("AnimationPlayer/bridge audio:playing")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("AnimationPlayer/AudioStreamPlayer2D:volume_db")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-4.426]
+}
+
+[sub_resource type="Animation" id="Animation_805w3"]
+resource_name = "sfcene 1"
+length = 70.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("char/Arbiterwhguy:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3.3716815, 3.46, 3.6, 15.054087, 15.144087, 15.2540865, 17.374086, 17.474087, 17.554087, 26.372503, 26.466225, 26.596224, 35.36803, 35.42803, 35.53803, 38.089798, 38.189796, 38.349796, 50.86311, 50.993107, 51.103107, 60.105988, 60.245987, 60.445988),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-597, 304.00024), Vector2(-597, 304.00024), Vector2(-597, 300), Vector2(-597, 304), Vector2(-597, 304), Vector2(-597, 300), Vector2(-597, 304), Vector2(-597, 304), Vector2(-597, 300), Vector2(-597, 304), Vector2(-597, 304), Vector2(-597, 300), Vector2(-597, 304), Vector2(-597, 304), Vector2(-597, 300), Vector2(-597, 304), Vector2(-597, 304), Vector2(-597, 299), Vector2(-597, 304), Vector2(-597, 304), Vector2(-597, 299), Vector2(-597, 304), Vector2(-597, 304), Vector2(-597, 298), Vector2(-597, 304)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ui/Panel/VBoxContainer/Label:theme_override_colors/font_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.78235406, 0.21275721, 0.0022523496, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ui/Panel/VBoxContainer/Label:text")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.53333336, 3, 5.3, 9.966666, 13.539312, 16.733334, 16.757833, 22.651215, 26.013716, 28.787268, 34.933334, 37.143555, 40.03956, 44.033333, 50.5, 53.66232, 57.6, 60.133335, 62.25567, 64.500786),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [" [UESF CENTURY F91] ONBOARD AI", "The Arbiter of [?????]", "INCOMING TRANSMISSION - UNITED EARTH FEDERATION", "The Council", "The Arbiter of [?????]", "The Arbiter of [??????]
+", "The Arbiter of [??????]", "The Council", "The Arbiter of [?????]", "[UESF CENTURY F91] ONBOARD AI", "The Arbiter of [????]", "The Arbiter of [????]", "[UESF CENTURY F91] ONBOARD AI", "[UESF CENTURY F91] ONBOARD AI", "The Arbiter", "[UESF CENTURY F91] ONBOARD AI", "???????", "The Arbiter", "[UESF CENTURY F91] ONBOARD AI", "???????"]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ui/Panel/VBoxContainer/RichTextLabel:text")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 3, 5.3333335, 5.766667, 6.133333, 6.5333333, 6.9666667, 7.366667, 7.766667, 8.233334, 8.6, 9, 9.366667, 9.766666, 10, 13.539312, 14.033334, 14.3, 14.6, 14.7, 16.8, 17.633333, 18.233334, 18.733334, 19.2, 19.666666, 20.133333, 20.6, 21.1, 22.651215, 26.013716, 28.787268, 34.981216, 37.143555, 40.03956, 43.933334, 47.906593, 48.136593, 48.366592, 48.596592, 48.776592, 49.00659, 49.206593, 49.456593, 50.766666, 53.66232, 57.866665, 58.633335, 60.133335, 62.266666, 64.03333, 64.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": ["Welcome back Arbiter.
+Long-range scans confirm successful departure from the quasi Sector.
+Mission status?", "Complete.
+The artifact has been secured.
+No witnesses remain.", ".", "..", "...", "....", ".....", "......", ".......", "........", ".........", "..........", "...........", "............", "Arbiter.
+Our observers detected an anomalous energy signature.
+Confirm the relic was destroyed.", ".", "..", "...", "....", "....Negative.", "Because YOU LIED.
+It was never meant to be destroyed.I WAS TOO FOOLISH TO TRUST 
+YOU AND THAT GROUP OF PHONY PHILOSOPHERS,
+WE ALL WERE", "Because YOU LIED.
+It was never meant to be destroyed.I WAS TOO FOOLISH TO TRUST 
+YOU AND THAT GROUP OF PHONY PHILOSOPHERS,
+WE ALL WERE.", "Because YOU LIED.
+It was never meant to be destroyed.I WAS TOO FOOLISH TO TRUST 
+YOU AND THAT GROUP OF PHONY PHILOSOPHERS,
+WE ALL WERE..", "Because YOU LIED.
+It was never meant to be destroyed.I WAS TOO FOOLISH TO TRUST 
+YOU AND THAT GROUP OF PHONY PHILOSOPHERS,
+WE ALL WERE...", "Because YOU LIED.
+It was never meant to be destroyed.I WAS TOO FOOLISH TO TRUST 
+YOU AND THAT GROUP OF PHONY PHILOSOPHERS,
+WE ALL WERE....", "Because YOU LIED.
+It was never meant to be destroyed.I WAS TOO FOOLISH TO TRUST 
+YOU AND THAT GROUP OF PHONY PHILOSOPHERS,
+WE ALL WERE....how could you do this ", "Because YOU LIED.
+It was never meant to be destroyed.I WAS TOO FOOLISH TO TRUST 
+YOU AND THAT GROUP OF PHONY PHILOSOPHERS,
+WE ALL WERE....how could you do this.", "Because YOU LIED.
+It was never meant to be destroyed.I WAS TOO FOOLISH TO TRUST 
+YOU AND THAT GROUP OF PHONY PHILOSOPHERS,
+WE ALL WERE....how could you do this..", "Because YOU LIED.
+It was never meant to be destroyed.I WAS TOO FOOLISH TO TRUST 
+YOU AND THAT GROUP OF PHONY PHILOSOPHERS,
+WE ALL WERE....how could you do this..to your own [???????]", " You have violated the First Accord.
+Return the artifact immediately.
+
+This is your final directive.", "Directives change. 
+Truth doesn't.
+I'm sure you remember my nickname in the grand fleet.
+𝘛𝘳𝘢𝘯𝘴𝘮𝘪𝘴𝘴𝘪𝘰𝘯 𝘦𝘯𝘥𝘦𝘥.
+
+", "Warning.Gravitational distortions detected.
+Multiple warp signatures emerging.
+Twelve hostile vessels confirmed.
+Council fleet signatures detected.
+
+", "They've abandoned caution.
+four capital ships for one courier.
+Either they've lost their minds or they finally understand
+what this is.
+
+
+", "Set course for Earth.
+We don't have much time and every cycle this curse takes a 
+little more from me. If the artifact is what the ancients 
+claimed then this ends tonight.
+
+
+", "Anomalous resonance detected.
+Synchronization... increasing.
+𝘛𝘩𝘦 𝘢𝘳𝘵𝘪𝘧𝘢𝘤𝘵 𝘴𝘶𝘥𝘥𝘦𝘯𝘭𝘺 𝘨𝘭𝘰𝘸𝘴 𝘸𝘪𝘵𝘩 𝘢 𝘣𝘳𝘪𝘭𝘭𝘪𝘢𝘯𝘵 𝘣𝘭𝘶𝘦 𝘭𝘪𝘨𝘩𝘵.
+
+", "Unknown energy source detected.
+
+Reactor output increasing... 210%... 340%... 580%...
+Warp drive operating beyond operational limits.
+
+", "Warp disengaged.Earth visual confirmed. 
+Anomaly detected.
+Scanning local space.
+USEF Headquarters
+
+", "Warp disengaged.Earth visual confirmed. 
+Anomaly detected.
+Scanning local space.
+USEF Headquarters.
+
+", "Warp disengaged.Earth visual confirmed. 
+Anomaly detected.
+Scanning local space.
+USEF Headquarters..
+
+", "Warp disengaged.Earth visual confirmed. 
+Anomaly detected.
+Scanning local space.
+USEF Headquarters...
+
+", "Warp disengaged.Earth visual confirmed. 
+Anomaly detected.
+Scanning local space.
+USEF Headquarters...
+.
+", "Warp disengaged.Earth visual confirmed. 
+Anomaly detected.
+Scanning local space.
+USEF Headquarters....
+
+", "Warp disengaged.Earth visual confirmed. 
+Anomaly detected.
+Scanning local space.
+USEF Headquarters.....
+
+", "Warp disengaged.Earth visual confirmed. 
+Anomaly detected.
+Scanning local space.
+USEF Headquarters.....not found.
+
+", "Impossible.
+The station spans over seventy kilometers.
+you don't just... lose something that large.
+Run the photon arrays.
+", "Long-range photon scanners unavailable.
+Only orbital objects detected:
+Legacy communication satellites.
+Designation...Late 20th century. Status: Obsolete.
+
+", "𝘈 𝘥𝘦𝘦𝘱 𝘣𝘭𝘶𝘦 𝘱𝘶𝘭𝘴𝘦 𝘦𝘳𝘶𝘱𝘵𝘴 𝘧𝘳𝘰𝘮 𝘣𝘦𝘩𝘪𝘯𝘥 𝘵𝘩𝘦 𝘤𝘰𝘤𝘬𝘱𝘪𝘵.𝘛𝘩𝘦 𝘢𝘳𝘵𝘪𝘧𝘢𝘤𝘵 
+𝘨𝘭𝘰𝘸𝘴 𝘣𝘳𝘪𝘨𝘩𝘵𝘦𝘳 𝘵𝘩𝘢𝘯 𝘦𝘷𝘦𝘳 𝘣𝘦𝘧𝘰𝘳𝘦.𝘛𝘩𝘦 𝘸𝘢𝘳𝘱 𝘤𝘰𝘳𝘦 𝘣𝘦𝘨𝘪𝘯𝘴 𝘧𝘦𝘦𝘥𝘪𝘯𝘨 
+𝘥𝘪𝘳𝘦𝘤𝘵𝘭𝘺 𝘧𝘳𝘰𝘮 𝘪𝘵.
+", "𝘈 𝘥𝘦𝘦𝘱 𝘣𝘭𝘶𝘦 𝘱𝘶𝘭𝘴𝘦 𝘦𝘳𝘶𝘱𝘵𝘴 𝘧𝘳𝘰𝘮 𝘣𝘦𝘩𝘪𝘯𝘥 𝘵𝘩𝘦 𝘤𝘰𝘤𝘬𝘱𝘪𝘵.𝘛𝘩𝘦 𝘢𝘳𝘵𝘪𝘧𝘢𝘤𝘵 
+𝘨𝘭𝘰𝘸𝘴 𝘣𝘳𝘪𝘨𝘩𝘵𝘦𝘳 𝘵𝘩𝘢𝘯 𝘦𝘷𝘦𝘳 𝘣𝘦𝘧𝘰𝘳𝘦.𝘛𝘩𝘦 𝘸𝘢𝘳𝘱 𝘤𝘰𝘳𝘦 𝘣𝘦𝘨𝘪𝘯𝘴 𝘧𝘦𝘦𝘥𝘪𝘯𝘨 
+𝘥𝘪𝘳𝘦𝘤𝘵𝘭𝘺 𝘧𝘳𝘰𝘮 𝘪𝘵.
+", "WHAT WARP CORE UNSTABLE
+Not now.
+Prepare emergency shuttle.
+WE MUST GET THE ARTIFACT TO SAFETY NO MATTER WHAT.
+", "Escape shuttle primed.
+Estimated time until core collapse: Thirty-two seconds
+𝘛𝘩𝘦 𝘴𝘩𝘶𝘵𝘵𝘭𝘦 𝘣𝘭𝘢𝘴𝘵𝘴 𝘧𝘳𝘦𝘦 𝘫𝘶𝘴𝘵 𝘢𝘴 𝘵𝘩𝘦 𝘮𝘢𝘪𝘯 𝘷𝘦𝘴𝘴𝘦𝘭 𝘵𝘦𝘢𝘳𝘴 𝘢𝘱𝘢𝘳𝘵 𝘪𝘯 𝘢 𝘣𝘭𝘪𝘯𝘥𝘪𝘯𝘨 𝘣𝘭𝘶𝘦
+ 𝘳𝘶𝘱𝘵𝘶𝘳𝘦 𝘢𝘣𝘰𝘷𝘦 𝘌𝘢𝘳𝘵𝘩'𝘴 𝘢𝘵𝘮𝘰𝘴𝘱𝘩𝘦𝘳𝘦.", "Escape shuttle primed.
+Estimated time until core collapse: Thirty-two seconds
+𝘛𝘩𝘦 𝘴𝘩𝘶𝘵𝘵𝘭𝘦 𝘣𝘭𝘢𝘴𝘵𝘴 𝘧𝘳𝘦𝘦 𝘫𝘶𝘴𝘵 𝘢𝘴 𝘵𝘩𝘦 𝘮𝘢𝘪𝘯 𝘷𝘦𝘴𝘴𝘦𝘭 𝘵𝘦𝘢𝘳𝘴 𝘢𝘱𝘢𝘳𝘵 𝘪𝘯 𝘢 𝘣𝘭𝘪𝘯𝘥𝘪𝘯𝘨 𝘣𝘭𝘶𝘦
+ 𝘳𝘶𝘱𝘵𝘶𝘳𝘦 𝘢𝘣𝘰𝘷𝘦 𝘌𝘢𝘳𝘵𝘩'𝘴 𝘢𝘵𝘮𝘰𝘴𝘱𝘩𝘦𝘳𝘦.", "𝘈 𝘴𝘩𝘰𝘤𝘬𝘸𝘢𝘷𝘦 𝘰𝘧 𝘣𝘭𝘶𝘦 𝘦𝘯𝘦𝘳𝘨𝘺 𝘸𝘢𝘴𝘩𝘦𝘴 𝘰𝘷𝘦𝘳 𝘵𝘩𝘦 𝘴𝘩𝘶𝘵𝘵𝘭𝘦.𝘐𝘯𝘴𝘪𝘥𝘦, 𝘢𝘭𝘢𝘳𝘮𝘴 𝘧𝘢𝘥𝘦. 𝘛𝘩𝘦
+𝘈𝘳𝘣𝘪𝘵𝘦𝘳 𝘤𝘭𝘶𝘵𝘤𝘩𝘦𝘴 𝘩𝘪𝘴 𝘩𝘦𝘢𝘥.
+𝘍𝘳𝘢𝘨𝘮𝘦𝘯𝘵𝘴 𝘰𝘧 𝘮𝘦𝘮𝘰𝘳𝘪𝘦𝘴 𝘧𝘭𝘢𝘴𝘩 𝘛𝘩𝘦 𝘊𝘰𝘶𝘯𝘤𝘪𝘭,𝘛𝘩𝘦 𝘈𝘳𝘵𝘪𝘧𝘢𝘤𝘵,𝘛𝘩𝘦 𝘔𝘪𝘴𝘴𝘪𝘰𝘯.
+𝘛𝘩𝘦𝘯...𝘕𝘰𝘵𝘩𝘪𝘯𝘨,𝘏𝘪𝘴 𝘦𝘺𝘦𝘴 𝘴𝘭𝘰𝘸𝘭𝘺 𝘤𝘭𝘰𝘴𝘦."]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("ui/Panel/VBoxContainer/RichTextLabel:visible_ratio")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(1.6666666, 2.6333334, 4.1666665, 4.9333334, 7.5, 9.933333, 10.833333, 12.456855, 13.006675, 13.550405, 16.066668, 16.366667, 16.66613, 17.3, 21.568756, 22, 22.733334, 24.066668, 24.8, 25.343622, 25.866667, 26.333334, 28.5, 28.718348, 29.466667, 31.033333, 34.833332, 35.266666, 37.033333, 37.075127, 37.47201, 39.633335, 39.925297, 40.666668, 43.3, 43.766666, 44.466667, 46.666668, 47.746593, 48.406593, 49.866665, 50.1, 50.680298, 51.2, 52.9, 53.574554, 54.233334, 56.7, 57, 57.4, 59.566666, 60, 60.333332, 61.6, 62.1, 62.4, 63.866665, 64.41079, 64.72079, 66.833336),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("ui/Panel:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.5, 2.6333334, 3, 5, 5.3091974, 13.0067, 13.539312, 16.35105, 16.754303, 22, 22.651215, 25.343622, 26.013716, 28.581085, 28.787268, 31.033333, 35.035957, 50.2903, 50.8, 53.13232, 53.66232, 61.90567, 62.25567, 64.23079, 64.500786),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("ui/Label:text")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.5, 47.066666, 47.07659),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": ["                  QUASI-4 ERID", "                  USEF HQ - EARTH", "                  USEF HQ - EARTH"]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Sprite2D/Sprite2D/En2:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(32.833332, 34.633335, 42.8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [false, true, false]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Sprite2D/Sprite2D/En3(4):visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(32.833332, 34.833332, 43.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Sprite2D/Sprite2D/En4:visible")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(32.866665, 34.866665, 43.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Sprite2D/Sprite2D/En5:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(32.866665, 34.7, 43.733334),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, true, false]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("AnimationPlayer/fleetapproaching:playing")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(28.633333),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("AnimationPlayer/starfleet message:playing")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(4.9),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("AnimationPlayer/AudioStreamPlayer2D3:playing")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(33.075344),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("AnimationPlayer/AudioStreamPlayer2D:playing")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(45.166668),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Sprite2D/Sprite2D:modulate")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(36.6, 47.2, 47.733654),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.12225217, 0.12225226, 0.12225223, 1), Color(1, 1, 1, 1)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Sprite2D/Sprite2D/QuasiSystem:visible")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(41.489212, 42.8256, 47.1972, 47.6, 48.5, 49.833332),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [false, true, true, true, true, true]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Sprite2D/Sprite2D/QuasiSystem:texture")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(47.1972, 47.2672, 48.333332, 48.751823),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("4_bn3ge"), ExtResource("4_bn3ge"), ExtResource("4_bn3ge"), ExtResource("4_bn3ge")]
+}
+tracks/18/type = "method"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath(".")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(1.5333333, 4.5666666, 9.9, 11.5, 15.066667, 21.5, 24.666666, 26.533333, 30.333334, 36.033333, 38.266666, 41.166668, 49.633335, 51.733334, 54.9, 57.6, 59, 60.466667, 61.466667, 62.766666, 65.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"values": [{
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}, {
+"args": [],
+"method": &"pause_dialogue"
+}]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath(".:modulate")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 0,
+"values": []
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("ui/Panel/VBoxContainer:visible")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(69.13333),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/21/type = "method"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath(".")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"values": []
+}
+tracks/22/type = "method"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath(".")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(69.166664),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"load_next_scene"
+}]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("char/astral1:position")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(601, 349.00024)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("char/astral1:texture")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("14_bssyp")]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("char/Arbiterwhguy:texture")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("15_dmjuj")]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("AnimationPlayer/bridge audio:playing")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(1.7333333),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("AnimationPlayer/AudioStreamPlayer2D:volume_db")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(45.26692),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-4.426]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fhh06"]
+_data = {
+&"RESET": SubResource("Animation_4xpgs"),
+&"sfcene 1": SubResource("Animation_805w3")
+}
+
+[node name="cutscene" type="Node2D" unique_id=1427938373 node_paths=PackedStringArray("animation_player")]
+position = Vector2(776, 548.99976)
+script = ExtResource("1_11rn7")
+animation_player = NodePath("AnimationPlayer")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=426120955]
+position = Vector2(35, -10.999756)
+texture = ExtResource("9_gdqwm")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D" unique_id=1928529287]
+modulate = Color(0.12225217, 0.12225226, 0.12225223, 1)
+
+[node name="QuasiSystem" type="Sprite2D" parent="Sprite2D/Sprite2D" unique_id=935283559]
+visible = false
+position = Vector2(-3.9999995, -5)
+scale = Vector2(0.99023443, 0.9892578)
+texture = ExtResource("3_lvpcv")
+
+[node name="En2" type="Sprite2D" parent="Sprite2D/Sprite2D" unique_id=1316869288]
+visible = false
+position = Vector2(-21, 24)
+texture = ExtResource("10_2hsgb")
+
+[node name="En3(4)" type="Sprite2D" parent="Sprite2D/Sprite2D" unique_id=968531926]
+visible = false
+position = Vector2(-37.000008, 5)
+scale = Vector2(0.80763984, 0.8643989)
+texture = ExtResource("11_ydjsy")
+
+[node name="En4" type="Sprite2D" parent="Sprite2D/Sprite2D" unique_id=2033292053]
+visible = false
+position = Vector2(42, -7)
+texture = ExtResource("12_fkjof")
+
+[node name="En5" type="Sprite2D" parent="Sprite2D/Sprite2D" unique_id=1268858978]
+visible = false
+position = Vector2(10, 32)
+texture = ExtResource("13_rnq2y")
+
+[node name="char" type="Node2D" parent="." unique_id=1364520155]
+
+[node name="astral1" type="Sprite2D" parent="char" unique_id=1937508931]
+position = Vector2(1399, 873)
+scale = Vector2(0.26419628, 0.296429)
+texture = ExtResource("14_bssyp")
+
+[node name="Arbiterwhguy" type="Sprite2D" parent="char" unique_id=1200073518]
+position = Vector2(141.99998, 828.00006)
+scale = Vector2(0.16826154, 0.16945782)
+texture = ExtResource("15_dmjuj")
+
+[node name="Sprite2D2" type="Sprite2D" parent="char" unique_id=242478229]
+
+[node name="astral2" type="Sprite2D" parent="char" unique_id=191500588]
+
+[node name="astral3" type="Sprite2D" parent="char" unique_id=1269562005]
+
+[node name="astral4" type="Sprite2D" parent="char" unique_id=2014906754]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1147217590]
+libraries/ = SubResource("AnimationLibrary_fhh06")
+autoplay = &"sfcene 1"
+
+[node name="fleetapproaching" type="AudioStreamPlayer2D" parent="AnimationPlayer" unique_id=306793998]
+position = Vector2(708, 607.99976)
+stream = ExtResource("5_ex658")
+
+[node name="bridge audio" type="AudioStreamPlayer2D" parent="AnimationPlayer" unique_id=1069499628]
+position = Vector2(708, 607.99976)
+stream = ExtResource("2_npmbk")
+volume_db = 14.428
+max_distance = 1335.0
+
+[node name="starfleet message" type="AudioStreamPlayer2D" parent="AnimationPlayer" unique_id=1249112746]
+position = Vector2(708, 607.99976)
+stream = ExtResource("6_ulve2")
+volume_db = 14.172
+
+[node name="AudioStreamPlayer2D3" type="AudioStreamPlayer2D" parent="AnimationPlayer" unique_id=1533674576]
+position = Vector2(708, 607.99976)
+stream = ExtResource("7_5qh8t")
+volume_db = 14.444
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="AnimationPlayer" unique_id=1085380543]
+position = Vector2(708, 607.99976)
+stream = ExtResource("8_a5i0c")
+volume_db = -4.426
+
+[node name="ui" type="Control" parent="." unique_id=199814577]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="ui" unique_id=1875121974]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -142.0
+offset_top = -497.99976
+offset_right = 107.0
+offset_bottom = -466.99976
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 22
+text = "                  QUASI-4 ERID"
+
+[node name="Panel" type="Panel" parent="ui" unique_id=350800166]
+visible = false
+modulate = Color(1.6362339, 1.6362339, 1.6362339, 1)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.273
+anchor_top = 0.73300004
+anchor_right = 0.273
+anchor_bottom = 0.73300004
+offset_left = -447.0
+offset_top = 244.00024
+offset_right = 507.0
+offset_bottom = 449.00024
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ui/Panel" unique_id=1487930067]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.015000001
+anchor_top = 0.081
+anchor_right = 0.9760001
+anchor_bottom = 1.054
+offset_left = -11.31
+offset_top = -8.604969
+offset_right = -0.10406494
+offset_bottom = -0.06997681
+
+[node name="Label" type="Label" parent="ui/Panel/VBoxContainer" unique_id=1968755430]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.78235406, 0.21275721, 0.0022523496, 1)
+theme_override_font_sizes/font_size = 20
+text = " [UESF CENTURY F91] ONBOARD AI"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ui/Panel/VBoxContainer" unique_id=145995390]
+custom_minimum_size = Vector2(0, 176)
+layout_mode = 2
+size_flags_vertical = 0
+size_flags_stretch_ratio = 0.0
+theme_override_font_sizes/normal_font_size = 27
+text = "Welcome back Arbiter.
+Long-range scans confirm successful departure from the quasi Sector.
+Mission status?"
+scroll_active = false
+tab_size = 2
+visible_characters = 0
+visible_ratio = 0.0
