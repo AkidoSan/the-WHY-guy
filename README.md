@@ -140,6 +140,9 @@ Finished the new exhaust animation, adding more personality and polish to WhyGuy
 
 ## Screenshots
 
+<p align="center">
+  <img src="animations%20and%20showcase/opening%20menu.png" width="800" alt="WhyGuy Opening Menu">
+</p>
 ## Animations
 
 ---
