@@ -374,23 +374,16 @@ WhyGuy lives on your desktop, not inside a game window. Ideas include sitting on
 
 ---
 
-# Project Structure
-
-## Repository Layout
-
-
-
-## Technologies Used
-
-- Godot 4
-
----
-
 # Credits
 
 ## Artwork
 
 Original hand-drawn artwork and character design (previously used placeholder art from Miss MellowMix, now fully original or some placeholder will be mentioned).
+
+- Original character design by **Saksham Chauhan**
+- Original artwork and UI created for **WhyGuy**
+- Visual references and inspiration from **Pinterest**
+- 16/7/26- All placeholders removed!
 
 ## Development
 
