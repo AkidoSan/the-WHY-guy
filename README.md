@@ -117,8 +117,11 @@ Finished the new exhaust animation, adding more personality and polish to WhyGuy
 
 -  First interactive feature  ✅
 -  Exhaust animation finished ✅
--  Next up: Expanding dialogue and building the memory system
-
+-  Opening Menu ✅
+-  Opening Cutscene ✅
+-  Main Menu UI ✅
+- Dialogue Skip / Continue System ✅
+- Custom Artwork ✅
 ## Core Features
 
 - Transparent, always-on-top desktop window
@@ -403,7 +406,7 @@ Original hand-drawn artwork and character design (previously used placeholder ar
 - DevWorm (YouTube) — For helping me finally understand Godot UI, especially VBoxContainers, layout management, and UI organization. Those tutorials saved me from my greatest mortal enemy.
   Link:https://www.youtube.com/@dev-worm
   
-- * **TrekCore Audio Archive** — Thank you for preserving and making the rich history of **Star Trek** sound effects accessible. Several sounds from the archive were used as **temporary placeholder effects** during the prototyping and development of WhyGuy, helping bring the project to life while original audio is being developed.
+- **TrekCore Audio Archive** — Thank you for preserving and making the rich history of **Star Trek** sound effects accessible. Several sounds from the archive were used as **temporary placeholder effects** during the prototyping and development of WhyGuy, helping bring the project to life while original audio is being developed.
  **Link:** [TrekCore Audio Archive](https://www.trekcore.com/audio/?utm_source=chatgpt.com)
 
 - **Opening Music:** *Double Suicide* — **Sheena Ringo**
