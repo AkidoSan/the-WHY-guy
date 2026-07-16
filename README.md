@@ -406,5 +406,5 @@ Original hand-drawn artwork and character design (previously used placeholder ar
 - * **TrekCore Audio Archive** — Thank you for preserving and making the rich history of **Star Trek** sound effects accessible. Several sounds from the archive were used as **temporary placeholder effects** during the prototyping and development of WhyGuy, helping bring the project to life while original audio is being developed.
  **Link:** [TrekCore Audio Archive](https://www.trekcore.com/audio/?utm_source=chatgpt.com)
 
--- **Opening Music:** *Double Suicide* — **Sheena Ringo**
+- **Opening Music:** *Double Suicide* — **Sheena Ringo**
 
