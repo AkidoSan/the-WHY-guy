@@ -147,7 +147,18 @@ Finished the new exhaust animation, adding more personality and polish to WhyGuy
 <p align="center">
   <img src="animations%20and%20showcase/opening%20menu.png" width="800" alt="WhyGuy Opening Menu">
 </p>
-## Animations
+
+
+
+<p align="center">
+  <a href="animations%20and%20showcase/cutscene.png">
+    <img src="animations%20and%20showcase/cutscene.png" width="800" alt="WhyGuy Opening Cutscene">
+  </a>
+</p>
+
+<p align="center">
+  <em>The opening cutscene introducing WhyGuy and the beginning of his story.</em>
+</p>
 
 ---
 
