@@ -1,0 +1,22 @@
+[gd_resource type="Theme" format=3 uid="uid://do6flx02v85eq"]
+
+[ext_resource type="FontFile" uid="uid://bwie7ius7yjqo" path="res://game/assets/megumi/MAINUI/astral map animation frames/Glass_TTY_VT220.ttf" id="1_4ays5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5tejp"]
+bg_color = Color(0.056291588, 0.056291603, 0.056291595, 0.92156863)
+border_width_left = 12
+border_width_top = 12
+border_width_right = 12
+border_width_bottom = 12
+border_color = Color(0.14044744, 0.14044744, 0.14044744, 1)
+border_blend = true
+corner_radius_top_left = 3
+corner_radius_top_right = 1
+corner_detail = 11
+
+[resource]
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_outline_color = Color(0.61745477, 0.61745477, 0.6174547, 1)
+Button/font_sizes/font_size = 26
+Button/fonts/font = ExtResource("1_4ays5")
+Button/styles/normal = SubResource("StyleBoxFlat_5tejp")
