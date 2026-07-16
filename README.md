@@ -168,6 +168,14 @@ Finished the new exhaust animation, adding more personality and polish to WhyGuy
 
 ## Requirements
 
+WhyGuy doesn't ask for much.
+
+### Minimum Requirements
+
+- A computer (highly recommended)
+- A keyboard and mouse (or a trackpad if you're feeling adventurous)
+- Approximately two functioning brain cells
+- The ability to click **Start**
 ## Running WhyGuy
 
 ---
