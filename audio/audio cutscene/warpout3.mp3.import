@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgviq4hc62pw"
+path="res://.godot/imported/warpout3.mp3-9cc17c1093abf3cc60a8fee072232e03.mp3str"
+
+[deps]
+
+source_file="res://game/assets/audio/audio cutscene/warpout3.mp3"
+dest_files=["res://.godot/imported/warpout3.mp3-9cc17c1093abf3cc60a8fee072232e03.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

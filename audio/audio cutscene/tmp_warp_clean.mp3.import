@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cm2eyv5lir1ui"
+path="res://.godot/imported/tmp_warp_clean.mp3-4f1615944a7ce1b785bb487c2e97e152.mp3str"
+
+[deps]
+
+source_file="res://game/assets/audio/audio cutscene/tmp_warp_clean.mp3"
+dest_files=["res://.godot/imported/tmp_warp_clean.mp3-4f1615944a7ce1b785bb487c2e97e152.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

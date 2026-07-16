@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dgjhmrjko05hg"
+path="res://.godot/imported/force field off.mp3-2a73a6f7fe028decd1614f602aececaa.mp3str"
+
+[deps]
+
+source_file="res://game/assets/audio/audio cutscene/force field off.mp3"
+dest_files=["res://.godot/imported/force field off.mp3-2a73a6f7fe028decd1614f602aececaa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
