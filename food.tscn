@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://d2vy6i51n2fdk"]
+
+[ext_resource type="Script" uid="uid://dt2l4iulyrnrg" path="res://food.gd" id="1_pohk7"]
+[ext_resource type="Texture2D" uid="uid://bvqewittlx0ih" path="res://game/assets/sprite variant food of thought/you can do this.png" id="2_v8piq"]
+[ext_resource type="Script" uid="uid://bg8tpncjrkdf6" path="res://variants.gd" id="3_5fm71"]
+[ext_resource type="Script" uid="uid://b5p2hjti23lfi" path="res://game/soundnomnom.gd" id="3_lu35j"]
+[ext_resource type="Texture2D" uid="uid://d3sfm7pgwxhdf" path="res://game/assets/sprite variant food of thought/you deserve happiness.png" id="4_lu35j"]
+[ext_resource type="AudioStream" uid="uid://cidrml4t7ideq" path="res://game/assets/audio/audio_bubble.ogg" id="4_v8piq"]
+[ext_resource type="Texture2D" uid="uid://cff6vkwtk4qmv" path="res://game/assets/sprite variant food of thought/flyhigh!.png" id="5_kktf7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_58f3i"]
+radius = 39.20459
+
+[node name="food" type="CharacterBody2D" unique_id=304861640]
+script = ExtResource("1_pohk7")
+
+[node name="FoodHeart" type="Sprite2D" parent="." unique_id=1575146368]
+position = Vector2(1.1920929e-07, 0)
+scale = Vector2(0.20270042, 0.21854655)
+texture = ExtResource("2_v8piq")
+script = ExtResource("3_5fm71")
+variants = Array[Texture2D]([ExtResource("4_lu35j"), ExtResource("2_v8piq"), ExtResource("4_lu35j"), ExtResource("5_kktf7")])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=228295797]
+position = Vector2(-1, 1)
+shape = SubResource("CircleShape2D_58f3i")
+disabled = true
+
+[node name="Timer" type="Timer" parent="." unique_id=1307994582]
+wait_time = 0.2
+one_shot = true
+autostart = true
+
+[node name="sound-dropped" type="AudioStreamPlayer2D" parent="." unique_id=1065746832]
+script = ExtResource("3_lu35j")
+sounds = Array[AudioStream]([ExtResource("4_v8piq")])
